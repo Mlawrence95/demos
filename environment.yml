@@ -5,7 +5,6 @@ channels:
   - defaults
 dependencies:
   - anaconda=custom=py27h2cfa9e9_0
-  - appnope=0.1.0=py27hb466136_0
   - asn1crypto=0.24.0=py27_0
   - backports=1.0=py27_1
   - backports.functools_lru_cache=1.5=py27_1
@@ -36,14 +35,12 @@ dependencies:
   - decorator=4.3.0=py27_0
   - dill=0.2.8.2=py27_0
   - docutils=0.14=py27h0befae3_0
-  - emcee=2.2.1=pyh24bf2e0_4
   - entrypoints=0.2.3=py27_2
   - enum34=1.1.6=py27_1
   - freetype=2.9.1=hb4e5f40_0
   - funcsigs=1.0.2=py27hb9f6266_0
   - functools32=3.2.3.2=py27_1
   - futures=3.2.0=py27_0
-  - gensim=3.4.0=py27h1de35cc_0
   - h5py=2.9.0=py27h3134771_0
   - hdf5=1.10.4=hfa1e0ec_0
   - idna=2.8=py27_0
@@ -52,7 +49,6 @@ dependencies:
   - ipykernel=4.10.0=py27_0
   - ipython=5.8.0=py27_0
   - ipython_genutils=0.2.0=py27h8b9a179_0
-  - jinja2=2.10=py27_0
   - jmespath=0.9.3=py27_0
   - joblib=0.12.5=py27_0
   - jsonschema=2.6.0=py27hd9b497e_0
@@ -65,7 +61,6 @@ dependencies:
   - libedit=3.1.20170329=hb402a30_2
   - libffi=3.2.1=h475c297_4
   - libgcc=4.8.5=hdbeacc1_10
-  - libgfortran=3.0.1=h93005f0_2
   - libpng=1.6.35=ha441bb4_0
   - libsodium=1.0.16=h3efe00b_0
   - line_profiler=2.1.2=py27h1de35cc_0
@@ -112,7 +107,6 @@ dependencies:
   - pycparser=2.19=py27_0
   - pygments=2.3.1=py27_0
   - pyjwt=1.7.1=py_0
-  - pymc3=3.5=py27_0
   - pyopenssl=18.0.0=py27_0
   - pyparsing=2.3.0=py27_0
   - pysocks=1.6.8=py27_0
@@ -136,13 +130,9 @@ dependencies:
   - singledispatch=3.4.0.3=py27he22c18d_0
   - six=1.12.0=py27_0
   - smart_open=1.7.1=py27_0
-  - spacy=2.0.18=py27hfc679d8_0
-  - sqlite=3.26.0=ha441bb4_0
-  - statsmodels=0.9.0=py27h1d22016_0
   - subprocess32=3.5.3=py27h1de35cc_0
   - terminado=0.8.1=py27_1
   - testpath=0.4.2=py27_0
-  - theano=1.0.3=py27h04f5b5a_0
   - thinc=6.12.1=py27hf8a1672_0
   - tk=8.6.8=ha441bb4_0
   - toolz=0.9.0=py_1
@@ -150,7 +140,6 @@ dependencies:
   - tqdm=4.28.1=py27h28b3542_0
   - traceback2=1.4.0=py27_0
   - traitlets=4.3.2=py27hcf08151_0
-  - tweepy=3.6.0=py27_0
   - ujson=1.35=py27h470a237_1
   - unittest2=1.1.0=py27_0
   - urllib3=1.24.1=py27_0
@@ -162,6 +151,7 @@ dependencies:
   - zeromq=4.2.5=h0a44026_1
   - zlib=1.2.11=h1de35cc_3
   - pip:
+    - bleach==3.0.2
     - en-core-web-sm==2.0.0
     - msgpack==0.5.6
     - pysqlite==2.8.3
